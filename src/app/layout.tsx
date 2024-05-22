@@ -1,7 +1,12 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import 'animate.css';
+import Image from 'next/image';
+import { BklogoIcon } from '@/images/icons';
+// import 'slick-animation/slick-animation.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -25,7 +30,14 @@ export default function RootLayout({
         property='og:image'
         content={`https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500`}
       ></meta>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className='flex relative'>
+          <div className='flex z-20 absolute top-3 right-3 bg-white/[0.5] p-2 rounded-md'>
+            <BklogoIcon />
+          </div>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

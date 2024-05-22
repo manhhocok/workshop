@@ -27,6 +27,12 @@ import GoiY2 from '../../public/goi-y2.jpg';
 import GoiY3 from '../../public/goi-y3.jpg';
 import GoiY4 from '../../public/goi-y4.jpg';
 import LoadingImg from '../../public/load-img.png';
+import Anh1 from '../../public/anh-1.jpg';
+import Anh2 from '../../public/anh-2.jpg';
+import Anh3 from '../../public/anh3.gif';
+import Header from '../../public/header.png';
+import Anh4 from '../../public/anh-4.jpg';
+
 export const images = {
   Logo: Logo,
   Test: Test,
@@ -57,4 +63,9 @@ export const images = {
   GoiY3: GoiY3,
   GoiY4: GoiY4,
   LoadingImg: LoadingImg,
+  Anh1: Anh1,
+  Anh2: Anh2,
+  Anh3: Anh3,
+  Header: Header,
+  Anh4: Anh4,
 };
