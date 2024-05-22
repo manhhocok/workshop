@@ -32,6 +32,24 @@ import Anh2 from '../../public/anh-2.jpg';
 import Anh3 from '../../public/anh3.gif';
 import Header from '../../public/header.png';
 import Anh4 from '../../public/anh-4.jpg';
+import Anh5 from '../../public/anh-5.jpg';
+import Anh6 from '../../public/anh-6.jpg';
+import Anh7 from '../../public/anh-7.jpg';
+import Anh8 from '../../public/anh-8.jpg';
+import Anh9 from '../../public/anh-9.jpg';
+import Anh10 from '../../public/anh-10.jpg';
+import Anh11 from '../../public/anh-11.png';
+import Anh12 from '../../public/anh-12.png';
+import Anh13 from '../../public/anh-13.jpg';
+import Anh14 from '../../public/anh-14.jpg';
+import Anh15 from '../../public/anh-15.jpg';
+import Anh20 from '../../public/anh-20.jpg';
+import Anh21 from '../../public/anh-21.jpg';
+import Anh22 from '../../public/anh-22.jpg';
+import Anh23 from '../../public/anh-23.jpg';
+import Anh24 from '../../public/anh-24.jpg';
+import Anh25 from '../../public/anh-25.jpg';
+import Anh26 from '../../public/anh-26.jpg';
 
 export const images = {
   Logo: Logo,
@@ -68,4 +86,22 @@ export const images = {
   Anh3: Anh3,
   Header: Header,
   Anh4: Anh4,
+  Anh5: Anh5,
+  Anh6: Anh6,
+  Anh7: Anh7,
+  Anh8: Anh8,
+  Anh9: Anh9,
+  Anh10: Anh10,
+  Anh11: Anh11,
+  Anh12: Anh12,
+  Anh13: Anh13,
+  Anh14: Anh14,
+  Anh15: Anh15,
+  Anh20: Anh20,
+  Anh21: Anh21,
+  Anh22: Anh22,
+  Anh23: Anh23,
+  Anh24: Anh24,
+  Anh25: Anh25,
+  Anh26: Anh26,
 };

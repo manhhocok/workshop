@@ -32,7 +32,7 @@ export default function RootLayout({
       ></meta>
       <body className={inter.className}>
         <div className='flex relative'>
-          <div className='flex z-20 absolute top-3 right-3 bg-white/[0.5] p-2 rounded-md'>
+          <div className='flex z-20 absolute top-3 right-3 bg-white/[0.5] p-2 rounded-md hover:animate-pulse'>
             <BklogoIcon />
           </div>
           {children}

@@ -1,3 +1,117 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.loiich-1 {
+    --animate-duration: 400ms;
+    --animate-delay: 0.7s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.loiich-2 {
+    --animate-duration: 400ms;
+    --animate-delay: 1s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.loiich-3 {
+    --animate-duration: 400ms;
+    --animate-delay: 1.3s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.loiich-4 {
+    --animate-duration: 400ms;
+    --animate-delay: 1.6s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.loiich-5 {
+    --animate-duration: 400ms;
+    --animate-delay: 1.9s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.loiich-6 {
+    --animate-duration: 400ms;
+    --animate-delay: 2.1s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.loiich-7 {
+    --animate-duration: 400ms;
+    --animate-delay: 2.4s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+
+
+.chuyen-1 {
+    --animate-duration: 1000ms;
+    --animate-delay: 1s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.chuyen-2 {
+    --animate-duration: 1000ms;
+    --animate-delay: 2s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.chuyen-3 {
+    --animate-duration: 1000ms;
+    --animate-delay: 2.5s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.chuyen-4 {
+    --animate-duration: 1000ms;
+    --animate-delay: 5s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.chuyen-5 {
+    --animate-duration: 1000ms;
+    --animate-delay: 5s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.chuyen-6 {
+    --animate-duration: 1000ms;
+    --animate-delay: 6s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.chuyen-9-1 {
+    --animate-duration: 1000ms;
+    --animate-delay: 7s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.chuyen-9-2 {
+    --animate-duration: 1000ms;
+    --animate-delay: 9s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
+
+.chuyen-9-3 {
+    --animate-duration: 1000ms;
+    --animate-delay: 9s;
+    animation-delay: var(--animate-delay);
+    animation-duration: var(--animate-duration);
+}
