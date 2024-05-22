@@ -50,6 +50,7 @@ import Anh23 from '../../public/anh-23.jpg';
 import Anh24 from '../../public/anh-24.jpg';
 import Anh25 from '../../public/anh-25.jpg';
 import Anh26 from '../../public/anh-26.jpg';
+import Anh00 from '../../public/anh-00.jpg';
 
 export const images = {
   Logo: Logo,
@@ -104,4 +105,5 @@ export const images = {
   Anh24: Anh24,
   Anh25: Anh25,
   Anh26: Anh26,
+  Anh00: Anh00,
 };

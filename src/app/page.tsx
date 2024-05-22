@@ -21,7 +21,7 @@ function PreviousNextMethods() {
         <div className='animate__animated animate__zoomIn w-[96%] mx-[2%] my-5 h-[660px] rounded-lg bg-white drop-shadow-lg p-2'>
           <div className='flex justify-center gap-5'>
             <h3
-              className={`font-bold text-[80px] text-center mt-5 animate__animated animate__delay-1s animate__tada animate-spin `}
+              className={`font-bold text-[80px] text-center mt-5 animate__animated animate__delay-1s animate__tada animate-spin text-black`}
             >
               Hế nhô! Hế nhô!
             </h3>
@@ -200,7 +200,7 @@ function PreviousNextMethods() {
                   ảnh tĩnh.
                 </p>
                 <p className='flex flex-row text-sm'>
-                  <GoDotFill className='text-2xl' /> Kể chuyện 'Storytelling':
+                  <GoDotFill className='text-2xl' /> Kể chuyện Storytelling:
                   Animation có thể được sử dụng để kể câu chuyện, giúp truyền
                   tải thông điệp một cách hấp dẫn và dễ hiểu.
                 </p>
@@ -520,6 +520,13 @@ function PreviousNextMethods() {
               height={4000}
               width={3000}
             />
+            <Image
+              className='w-[300px] h-[200px] rounded-lg overflow-hidden drop-shadow-lg hover:scale-110 z-50 duration-500 hover:duration-500 delay-0'
+              alt=''
+              src={images.Anh00}
+              height={4000}
+              width={3000}
+            />
           </div>
         </div>
       )}
@@ -564,7 +571,7 @@ function PreviousNextMethods() {
                 - Chàng sinh viên hỏi ông cụ:
               </p>
               <p className='font-medium animate__animated animate__fadeIn chuyen-6'>
-                - "Thưa cụ, bí quyết nào giúp cụ sống lâu và khỏe mạnh như vậy?"
+                - Thưa cụ, bí quyết nào giúp cụ sống lâu và khỏe mạnh như vậy?
               </p>
             </div>
           </div>
@@ -582,9 +589,9 @@ function PreviousNextMethods() {
                 - Ông cụ mỉm cười và trả lời:
               </p>
               <p className='font-medium animate__animated animate__fadeIn chuyen-2'>
-                - "Đơn giản thôi, cháu à. Mỗi ngày cụ thức dậy lúc 5 giờ sáng,
+                - Đơn giản thôi, cháu à. Mỗi ngày cụ thức dậy lúc 5 giờ sáng,
                 chạy bộ 10km, ăn một bữa sáng lành mạnh, không uống rượu, không
-                hút thuốc và ngủ đủ giấc."
+                hút thuốc và ngủ đủ giấc.
               </p>
             </div>
             <div className='flex justify-center'>
@@ -612,7 +619,7 @@ function PreviousNextMethods() {
                 - Chàng sinh viên ngạc nhiên và hỏi tiếp:
               </p>
               <p className='font-medium animate__animated animate__fadeIn chuyen-6'>
-                - "Thật ạ? Cụ đã làm như vậy trong bao lâu?"
+                - Thật ạ? Cụ đã làm như vậy trong bao lâu?
               </p>
             </div>
           </div>
@@ -630,15 +637,15 @@ function PreviousNextMethods() {
                 - Ông cụ cười và đáp:
               </p>
               <p className='font-medium animate__animated animate__fadeIn animate__delay-3s'>
-                - "Không, cụ không làm như vậy"
+                - Không, cụ không làm như vậy
               </p>
               <p className='font-medium animate__animated animate__fadeIn animate__delay-5s'>
-                - "Nhưng đó là những gì bác sĩ nói với cụ khi cụ hỏi cùng câu
-                hỏi này"
+                - Nhưng đó là những gì bác sĩ nói với cụ khi cụ hỏi cùng câu hỏi
+                này
               </p>
               <p className='font-medium animate__animated animate__fadeIn chuyen-9-1 '>
-                - "Cụ thì chỉ uống một ly rượu vang mỗi ngày, ăn bất cứ thứ gì
-                mình thích, và thi thoảng còn thức khuya để xem phim nữa"
+                - Cụ thì chỉ uống một ly rượu vang mỗi ngày, ăn bất cứ thứ gì
+                mình thích, và thi thoảng còn thức khuya để xem phim nữa
               </p>
             </div>
             <div className='flex justify-center'>
@@ -666,7 +673,7 @@ function PreviousNextMethods() {
                 - Chàng sinh viên tròn mắt ngạc nhiên hỏi:
               </p>
               <p className='font-medium animate__animated animate__fadeIn chuyen-9-3'>
-                - "Vậy cụ đã sống lâu được bao nhiêu năm rồi?"
+                - Vậy cụ đã sống lâu được bao nhiêu năm rồi?
               </p>
             </div>
           </div>
@@ -684,13 +691,13 @@ function PreviousNextMethods() {
                 - Ông cụ trả lời:
               </p>
               <p className='font-medium animate__animated animate__fadeIn animate__delay-2s'>
-                - "Năm nay tôi hơn 70 tuổi"
+                - Năm nay tôi hơn 70 tuổi
               </p>
               <p className='font-medium animate__animated animate__fadeIn animate__delay-4s'>
-                - "À Nhầm"
+                - À Nhầm
               </p>
               <p className='font-medium animate__animated animate__fadeIn animate__delay-5s'>
-                - "Cụ vừa mới 30 tuổi tuần trước thôi, cháu à!"
+                - Cụ vừa mới 30 tuổi tuần trước thôi, cháu à!
               </p>
             </div>
             <div className='flex justify-center'>
